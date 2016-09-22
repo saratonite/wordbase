@@ -13,7 +13,6 @@
       "spanish":[]
     }
   },
-  ,
   {"word":"Ambiguous",
     "meaning":{
       "english":["open to more than one interpretation; not having one obvious meaning","not clear or decided"],
@@ -28,13 +27,14 @@
   },
   {"word":"ECCENTRIC",
     "meaning":{
-      "english":["(of a person or their behaviour) unconventional and slightly strange"]
+      "english":["(of a person or their behaviour) unconventional and slightly strange"],
+      "malayalam":[""]
     }
   },
-  {"word":"Template",
+  {"word":"nudge",
     "meaning":{
-      "english":[],
-      "malayalam":[],
+      "english":["a light touch or push"],
+      "malayalam":["തട്ടുക","അറിയിക്കുക","സൂചന കൊടുക്കുക","സൂചനകൊടുക്കുക","ലഘുവായ തട്ടല്‍"],
       "spanish":[]
     }
   },
