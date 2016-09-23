@@ -1,7 +1,28 @@
 var fs = require('fs');
+const app = require('commander');
 
-var command = process.argv[2] || 'list';
+/*
+http://dictionary.cambridge.org/dictionary/essential-british-english/<word>
+*/
 
+app.version('0.0.1');
+
+// List comand
+app.command('list')
+   .description('List all entries')
+   .action(function(){
+     console.log("LIST");
+     listWordbase();
+   });
+// Help
+app.command('help')
+   .description('List all entries')
+   .action(function(){
+     console.log("HELP");
+   });
+
+
+app.parse(process.argv);
 
 
 // Read wordbase.json file
@@ -13,7 +34,7 @@ function readWordbase(){
   return fileData;
 
 }
-
+//
 function listWordbase(){
 
   var lang = process.argv[3] || 'english';
@@ -30,11 +51,4 @@ function listWordbase(){
     });
   }
 
-}
-
-switch(command){
-  case 'list':
-    listWordbase();break;
-  default:
-    console.info("Hoops");
 }
