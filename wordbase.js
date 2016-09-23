@@ -3,6 +3,7 @@ const app = require('commander');
 
 /*
 http://dictionary.cambridge.org/dictionary/essential-british-english/<word>
+http://olam.in/Dictionary/en_ml/ok
 */
 
 app.version('0.0.1');
@@ -10,10 +11,15 @@ app.version('0.0.1');
 // List comand
 app.command('list')
    .description('List all entries')
+   .option('-l, --language', 'Language')
    .action(function(){
      console.log("LIST");
      listWordbase();
    });
+// Add new
+app.command('add')
+  .description('Add new word')
+  .action(actionAddNewWord);
 // Help
 app.command('help')
    .description('List all entries')
@@ -51,4 +57,8 @@ function listWordbase(){
     });
   }
 
+}
+// Add new word action
+function actionAddNewWord(){
+  console.log("Add");
 }
