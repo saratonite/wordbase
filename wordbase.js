@@ -11,10 +11,13 @@ app.version('0.0.1');
 // List comand
 app.command('list')
    .description('List all entries')
-   .option('-l, --language', 'Language')
-   .action(function(){
-     console.log("LIST");
-     listWordbase();
+   .option('-l, --language [language]', 'Language')
+   .action(function(opts){
+
+     var lang = opts.language || 'english';
+
+     console.log("LIST <"+lang+">" );
+     listWordbase(lang);
    });
 // Add new
 app.command('add')
@@ -41,9 +44,9 @@ function readWordbase(){
 
 }
 //
-function listWordbase(){
+function listWordbase(language){
 
-  var lang = process.argv[3] || 'english';
+  var lang = language || 'english';
 
   var wordfiledata = readWordbase();
 
