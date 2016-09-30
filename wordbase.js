@@ -4,6 +4,7 @@ const app = require('commander');
 /*
 http://dictionary.cambridge.org/dictionary/essential-british-english/<word>
 http://olam.in/Dictionary/en_ml/ok
+https://app.dictionarist.com/ext-balloon.asp?q=<word>&lang=english-english
 */
 
 app.version('0.0.1');

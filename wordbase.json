@@ -1,11 +1,4 @@
 [
-  {"word":"Template",
-    "meaning":{
-      "english":[],
-      "malayalam":[],
-      "spanish":[]
-    }
-  },
   {"word":"Leverage",
     "meaning":{
       "english":["use (something) to maximum advantage"],
@@ -38,32 +31,42 @@
       "spanish":[]
     }
   },
-  {"word":"Template",
+  {"word":"Burden",
     "meaning":{
       "english":[],
-      "malayalam":[],
+      "malayalam":["ക്ലേശം","സങ്കടം","പീഡിപ്പിക്കുക"],
       "spanish":[]
     }
   },
-  {"word":"Template",
+  {"word":"Forged",
     "meaning":{
       "english":[],
-      "malayalam":[],
+      "malayalam":["കെട്ടിച്ചമച്ച"],
       "spanish":[]
     }
   },
-  {"word":"Template",
+  {"word":"Assimilate",
     "meaning":{
       "english":[],
-      "malayalam":[],
+      "malayalam":["സ്വാംശീകരിക്കാനുള്ള","ഉള്‍ച്ചേര്‍ക്കുക"],
       "spanish":[]
     }
   },
-  {"word":"Template",
+  {"word":"Perspective",
     "meaning":{
       "english":[],
-      "malayalam":[],
+      "malayalam":["വീക്ഷണം","കാഴ്‌ചപ്പാട്‌"],
       "spanish":[]
     }
-  }
+  },
+  {"word":"Contradiction",
+    "meaning":{
+      "english":[],
+      "malayalam":["നിഷേധം"],
+      "spanish":[]
+    }
+  },
+  {"word":"Abnegation"},
+  {"word":""},
+  {"word":""}
 ]
